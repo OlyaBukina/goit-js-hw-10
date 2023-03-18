@@ -13,6 +13,13 @@ body {
   padding: 30px;
 }
 
+h1,
+ul,
+li,
+p {
+  margin: 0;
+}
+
 #search-box {
   font: inherit;
   padding: 8px;
@@ -31,4 +38,25 @@ body {
 .country-list p {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.js-title-container,
+.country-info li {
+  display: flex;
+  align-items: center;
+}
+.js-title-container {
+  gap: 15px;
+  margin-bottom: 28px;
+  margin-top: 15px;
+}
+
+.country-info ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.country-info li {
+  gap: 10px;
+  padding-bottom: 10px;
 }
